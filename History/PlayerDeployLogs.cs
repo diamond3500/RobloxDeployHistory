@@ -9,7 +9,7 @@ namespace RobloxDeployHistory
 {
     public class PlayerDeployLogs
     {
-        private const string LogPattern = "New (WindowsPlayer) (version-[A-z\\d]+) at (\\d+/\\d+/\\d+ \\d+:\\d+:\\d+ [A,P]M), file version: (\\d+), (\\d+), (\\d+), (\\d+), git hash: ([a-f\\d]+) ...";
+        private const string LogPattern = "New (Player6?4?) (version-[A-z\\d]+) at (\\d+/\\d+/\\d+ \\d+:\\d+:\\d+ [A,P]M), file version: (\\d+), (\\d+), (\\d+), (\\d+), git hash: ([a-f\\d]+) ...";
         private const StringComparison StringFormat = StringComparison.InvariantCulture;
         private static readonly NumberFormatInfo NumberFormat = NumberFormatInfo.InvariantInfo;
 
